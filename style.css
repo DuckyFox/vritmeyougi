@@ -1,0 +1,346 @@
+.body {
+    margin: 0 auto;
+    font-family: 'Roboto', Arial, sans-serif;
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.body_color{
+    background-color: #222858;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.site-title {
+    margin: 0;
+    font-size: 20px;
+    color: #1a5276;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.main-nav li {
+    margin-right: 20px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #1a5276;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.girlyoga{
+    margin: 0;
+    background-image:url(./images/woman-doing-yoga-inside-full-shot\ 1.png);
+    height: 525px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.girlyoga__title{
+    margin: 0;
+    max-width: 550px;
+    margin-right: 118px;
+    margin-top: 108px;
+}
+
+.girlyoga__title_text{
+    margin: 0;
+    font-size: 55px;
+    color: white;
+    text-align: right;
+}
+
+.girlyoga__title_p{
+    margin: 0;
+    margin-top: 30px;
+    font-size: 25px;
+    color: white;
+    text-align: right;
+}
+
+.manyoga{
+    margin: 0 auto;
+    margin-top: 100px;
+    max-width: 1082px;
+    width: 100%;
+    display: flex;
+    border: 0.5px, solid, black;
+}
+
+.content-left {
+    flex: 1;
+}
+
+.manyoga__image {
+    width: 100%; 
+    height: auto;
+    border-radius: 8px; 
+}
+
+.content-right {
+    flex: 1;
+    margin-left: 74px;
+    margin-top: 60px;
+    max-width: 428px;
+}
+
+.manyoga_title {
+    font-size: 40px;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.manyoga_par {
+    color: white;
+    font-size: 16px;
+    line-height: 1.6;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.edge_title{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-top: 215px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.edge_title-text{
+    margin: 0;
+    padding: 0;
+    color:#222858;
+    font-size: 45px;
+    text-align: center;
+}
+
+.edges {
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.edge {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.edge-image {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+.edge-text {
+    flex: 1;
+    color: white;
+    margin: 0;
+}
+
+.edge-title {
+    margin: 0;
+    font-size: 25px;
+    color: white
+}
+
+.vertical-image {
+    max-width: 200px;
+    height: auto;
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 20px;
+}
+
+.yogadir{
+    margin: 0 auto;
+    display: flex;
+    margin-top: 150px;
+    flex-direction: column;
+
+}
+
+.yogadir_title{
+    margin: 0 auto;
+    display: flex;
+    color: white;
+}
+
+.yogadir_title-text{
+    font-size: 40px;
+}
+
+.yogadir_par{
+    margin: 0 auto;
+    margin-top: 75px;
+    max-width: 1200px;
+    background-color: white;
+    border-radius: 14px;
+}
+
+.yogadir_par-p{
+    margin: 40px;
+    color:#222858;
+    font-size: 25px;
+}
+
+.yoga__image{
+    margin: 0 auto;
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hardness{
+    max-width: 1200px;
+    margin:0 auto;
+    margin-top: 100px;
+    color: white;
+}
+
+.hardness__title{
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.hardness__title-text{
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+.hardness__img{
+    margin-bottom: 25px;
+}
+
+.Treners{
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 175px;
+}
+
+.contact-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 250px;
+}
+
+.contact-left {
+    max-width: 480px;
+    flex: 1;
+}
+
+.contact-title-box{
+    background-color: white;
+    max-width: 455px;
+    height: 75px;
+    border-radius: 14px;
+    display: flex;
+}
+
+.contact-title {
+    margin: 0 auto;
+    color: #222858;
+    font-size: 40px;
+    text-align: center;
+    align-self: center;
+}
+
+.contact-paragraph {
+    color: white;
+    font-size: 35px;
+    line-height: 1.6;
+}
+
+.contact-right {
+    flex: 1;
+    margin-left: 100px;
+    max-width: 520px;
+}
+
+.contact-form {
+    background-color: #9FBAE6;
+    border-radius: 8px;
+    padding-top: 1px;
+    padding-left: 38px;
+    padding-right: 66px;
+    max-width: 520px;
+    width: 100%;
+}
+
+.form-label {
+    display: block;
+    color: black;
+    margin-bottom: 8px;
+    margin-top: 44px;
+}
+
+.form-input {
+    margin: 0;
+    max-width: 520px;
+    width: 100%;
+    height: 57px;
+    border-radius: 14px;
+    border: 0.2px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+
+.form-button {
+    max-width: 200px;
+    width: 100%;
+    height: 75px;
+    background-color: #f39c12;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+
+
+.button__block{
+    margin-top: 46px;
+    padding-bottom: 24px;
+    margin-left: 154px;
+}
+
+.form-button:hover {
+    background-color: #e67e22;
+}
